@@ -43,6 +43,7 @@ namespace Proyecto1
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(acerca));
 			this.label1 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
 			this.labelBFBB = new System.Windows.Forms.Label();
@@ -64,15 +65,15 @@ namespace Proyecto1
 			// 
 			this.label3.Location = new System.Drawing.Point(27, 27);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(377, 48);
+			this.label3.Size = new System.Drawing.Size(313, 48);
 			this.label3.TabIndex = 2;
 			this.label3.Text = "CENTRO DE BACHILLERATO TECNOLOGICO \r\nINDUSTRIAL Y DE SERVICIOS\r\n";
 			// 
 			// labelBFBB
 			// 
-			this.labelBFBB.Location = new System.Drawing.Point(27, 93);
+			this.labelBFBB.Location = new System.Drawing.Point(27, 84);
 			this.labelBFBB.Name = "labelBFBB";
-			this.labelBFBB.Size = new System.Drawing.Size(322, 58);
+			this.labelBFBB.Size = new System.Drawing.Size(313, 58);
 			this.labelBFBB.TabIndex = 3;
 			this.labelBFBB.Text = "MATERIA\r\nMETODOLOGIAS AGILES\r\nDOCENTE: LUIS GERMAN GUTIERREZ TORRES";
 			// 
@@ -88,7 +89,7 @@ namespace Proyecto1
 			// 
 			this.label4.Location = new System.Drawing.Point(27, 272);
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(306, 51);
+			this.label4.Size = new System.Drawing.Size(252, 51);
 			this.label4.TabIndex = 5;
 			this.label4.Text = "FECHA DE CREACION\r\n23 DE OCTUBRE DEL 2024\r\n";
 			// 
@@ -112,6 +113,7 @@ namespace Proyecto1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.ClientSize = new System.Drawing.Size(505, 448);
 			this.Controls.Add(this.label6);
 			this.Controls.Add(this.label5);
