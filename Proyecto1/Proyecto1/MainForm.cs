@@ -59,11 +59,8 @@ namespace Proyecto1
             string rfc = apellido1.Substring(0, 2)+apellido2.Substring(0, 1)+nombre.Substring(0, 1)+
             fechaNacimiento.ToString("yyMMdd")+h.Substring(0,3);
              
-             
-             RFC Forms2=new RFC();
              if(rfc==rfc)
              {
-             	Forms2.Show();
              	MessageBox.Show( "RFC: " + rfc+" "+
              "NOMBRE COMPLETO: "+nombre+" "+apellido1+" "+apellido2);
              }
@@ -72,5 +69,13 @@ namespace Proyecto1
              	
              }
         }
+		void Button3Click(object sender, EventArgs e)
+		{
+			acerca Form2 = new acerca();
+            Form2.Show();
+        }
+            
+		}
+		
 	}
-}
+	

@@ -15,9 +15,9 @@ namespace Proyecto1
 	/// <summary>
 	/// Description of RFC.
 	/// </summary>
-	public partial class RFC : Form
+	public partial class acerca : Form
 	{
-		public RFC()
+		public acerca()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
