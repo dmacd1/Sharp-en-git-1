@@ -58,8 +58,19 @@ namespace Proyecto1
              //AQUI SE CUENTAN LOS DIGITOS Y AL FINAL SE IMPRIME EN EL LABEL
             string rfc = apellido1.Substring(0, 2)+apellido2.Substring(0, 1)+nombre.Substring(0, 1)+
             fechaNacimiento.ToString("yyMMdd")+h.Substring(0,3);
-             lblrfc.Text="RFC: "+rfc;
- 
+             
+             
+             RFC Forms2=new RFC();
+             if(rfc==rfc)
+             {
+             	Forms2.Show();
+             	MessageBox.Show( "RFC: " + rfc+" "+
+             "NOMBRE COMPLETO: "+nombre+" "+apellido1+" "+apellido2);
+             }
+             else {
+             	MessageBox.Show("ERROR");
+             	
+             }
         }
 	}
 }
