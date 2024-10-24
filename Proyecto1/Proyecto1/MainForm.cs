@@ -29,7 +29,7 @@ namespace Proyecto1
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
-		
+		//BOTON PARA LIMPIAR LOS DATOS AGREGADOS
 		void Button1Click(object sender, EventArgs e)
 		{
 			textBox1.Text="";
@@ -41,6 +41,8 @@ namespace Proyecto1
 			dateTimePicker1.Text="";
 			
 		}
+		//BOTON GUARDAR AQUI ES DONDE SE GENERA EL RFC CON LAS PRIMERAS DOS LETRAS DEL APELLIDO PATERNO UNA DEL APELLIDO MATERNO 
+		//LA PRIMERA DE EL NOMBRE CON LA FECHA DE NACIMIENTO EMPEZANDO POR EL AÑO,MES Y EL DIA ,POSTERIORMENTE UNA HOMOCLAVE DE 3 DIGITOS
 		void Button2Click(object sender, EventArgs e)
 		{
 			string nombre=textBox1.Text;
@@ -50,15 +52,13 @@ namespace Proyecto1
             string direccion=textBox4.Text;
             string semestre=comboBox1.SelectedItem.ToString();
             DateTime fechaNacimiento=dateTimePicker1.Value;
-			
-        
-            // Algoritmo simplificado para generar RFC
-             Random random = new Random();
+			//ESTO SE UTILIZA PARA LA HOMOCLAVE TENGA NUMEROS RANDOM 
+             Random random=new Random();
              string h =random.Next(100000, 999999).ToString("D6");
- 
-            string rfc = apellido1.Substring(0, 2) + apellido2.Substring(0, 1) + nombre.Substring(0, 1) +
-            	fechaNacimiento.ToString("yyMMdd")+h.Substring(0,3);
-             lblrfc.Text = "RFC: " + rfc;
+             //AQUI SE CUENTAN LOS DIGITOS Y AL FINAL SE IMPRIME EN EL LABEL
+            string rfc = apellido1.Substring(0, 2)+apellido2.Substring(0, 1)+nombre.Substring(0, 1)+
+            fechaNacimiento.ToString("yyMMdd")+h.Substring(0,3);
+             lblrfc.Text="RFC: "+rfc;
  
         }
 	}

@@ -74,7 +74,7 @@ namespace Proyecto1
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(30, 28);
+			this.label1.Location = new System.Drawing.Point(111, 28);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
 			this.label1.TabIndex = 0;
@@ -82,7 +82,7 @@ namespace Proyecto1
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(288, 28);
+			this.label2.Location = new System.Drawing.Point(448, 28);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(100, 23);
 			this.label2.TabIndex = 1;
@@ -90,7 +90,7 @@ namespace Proyecto1
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(30, 99);
+			this.label3.Location = new System.Drawing.Point(111, 98);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(100, 23);
 			this.label3.TabIndex = 2;
@@ -98,7 +98,7 @@ namespace Proyecto1
 			// 
 			// label4
 			// 
-			this.label4.Location = new System.Drawing.Point(30, 190);
+			this.label4.Location = new System.Drawing.Point(111, 181);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(100, 23);
 			this.label4.TabIndex = 3;
@@ -106,7 +106,7 @@ namespace Proyecto1
 			// 
 			// label5
 			// 
-			this.label5.Location = new System.Drawing.Point(288, 190);
+			this.label5.Location = new System.Drawing.Point(448, 181);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(100, 23);
 			this.label5.TabIndex = 4;
@@ -114,42 +114,42 @@ namespace Proyecto1
 			// 
 			// textBox1
 			// 
-			this.textBox1.Location = new System.Drawing.Point(30, 54);
+			this.textBox1.Location = new System.Drawing.Point(111, 64);
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(218, 22);
 			this.textBox1.TabIndex = 5;
 			// 
 			// textBox2
 			// 
-			this.textBox2.Location = new System.Drawing.Point(288, 54);
+			this.textBox2.Location = new System.Drawing.Point(448, 64);
 			this.textBox2.Name = "textBox2";
 			this.textBox2.Size = new System.Drawing.Size(218, 22);
 			this.textBox2.TabIndex = 6;
 			// 
 			// textBox3
 			// 
-			this.textBox3.Location = new System.Drawing.Point(30, 135);
+			this.textBox3.Location = new System.Drawing.Point(111, 137);
 			this.textBox3.Name = "textBox3";
 			this.textBox3.Size = new System.Drawing.Size(218, 22);
 			this.textBox3.TabIndex = 7;
 			// 
 			// textBox4
 			// 
-			this.textBox4.Location = new System.Drawing.Point(30, 216);
+			this.textBox4.Location = new System.Drawing.Point(111, 207);
 			this.textBox4.Name = "textBox4";
 			this.textBox4.Size = new System.Drawing.Size(218, 22);
 			this.textBox4.TabIndex = 8;
 			// 
 			// textBox5
 			// 
-			this.textBox5.Location = new System.Drawing.Point(288, 216);
+			this.textBox5.Location = new System.Drawing.Point(448, 207);
 			this.textBox5.Name = "textBox5";
 			this.textBox5.Size = new System.Drawing.Size(218, 22);
 			this.textBox5.TabIndex = 9;
 			// 
 			// label6
 			// 
-			this.label6.Location = new System.Drawing.Point(288, 274);
+			this.label6.Location = new System.Drawing.Point(448, 272);
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(191, 23);
 			this.label6.TabIndex = 11;
@@ -157,7 +157,7 @@ namespace Proyecto1
 			// 
 			// label7
 			// 
-			this.label7.Location = new System.Drawing.Point(30, 274);
+			this.label7.Location = new System.Drawing.Point(117, 272);
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(100, 23);
 			this.label7.TabIndex = 12;
@@ -173,14 +173,14 @@ namespace Proyecto1
 			"Semestre 4",
 			"Semestre 5",
 			"Semestre 6"});
-			this.comboBox1.Location = new System.Drawing.Point(30, 300);
+			this.comboBox1.Location = new System.Drawing.Point(111, 300);
 			this.comboBox1.Name = "comboBox1";
-			this.comboBox1.Size = new System.Drawing.Size(187, 24);
+			this.comboBox1.Size = new System.Drawing.Size(218, 24);
 			this.comboBox1.TabIndex = 13;
 			// 
 			// button1
 			// 
-			this.button1.Location = new System.Drawing.Point(205, 471);
+			this.button1.Location = new System.Drawing.Point(196, 395);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(161, 23);
 			this.button1.TabIndex = 14;
@@ -190,7 +190,7 @@ namespace Proyecto1
 			// 
 			// lblrfc
 			// 
-			this.lblrfc.Location = new System.Drawing.Point(746, 471);
+			this.lblrfc.Location = new System.Drawing.Point(431, 456);
 			this.lblrfc.Name = "lblrfc";
 			this.lblrfc.Size = new System.Drawing.Size(157, 23);
 			this.lblrfc.TabIndex = 16;
@@ -198,17 +198,17 @@ namespace Proyecto1
 			// 
 			// button2
 			// 
-			this.button2.Location = new System.Drawing.Point(524, 471);
+			this.button2.Location = new System.Drawing.Point(427, 395);
 			this.button2.Name = "button2";
 			this.button2.Size = new System.Drawing.Size(161, 23);
 			this.button2.TabIndex = 15;
-			this.button2.Text = "button2";
+			this.button2.Text = "GUARDAR";
 			this.button2.UseVisualStyleBackColor = true;
 			this.button2.Click += new System.EventHandler(this.Button2Click);
 			// 
 			// dateTimePicker1
 			// 
-			this.dateTimePicker1.Location = new System.Drawing.Point(288, 302);
+			this.dateTimePicker1.Location = new System.Drawing.Point(448, 298);
 			this.dateTimePicker1.Name = "dateTimePicker1";
 			this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
 			this.dateTimePicker1.TabIndex = 18;
@@ -217,7 +217,7 @@ namespace Proyecto1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(965, 549);
+			this.ClientSize = new System.Drawing.Size(812, 495);
 			this.Controls.Add(this.dateTimePicker1);
 			this.Controls.Add(this.lblrfc);
 			this.Controls.Add(this.button2);
