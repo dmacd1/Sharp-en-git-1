@@ -29,5 +29,37 @@ namespace Proyecto1
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			textBox1.Text="";
+			textBox2.Text="";
+			textBox3.Text="";
+			textBox4.Text="";
+			textBox5.Text="";
+			comboBox1.Text="";
+			dateTimePicker1.Text="";
+			
+		}
+		void Button2Click(object sender, EventArgs e)
+		{
+			string nombre=textBox1.Text;
+            string apellido1=textBox2.Text;
+            string apellido2=textBox3.Text;
+            string telefono=textBox5.Text;
+            string direccion=textBox4.Text;
+            string semestre=comboBox1.SelectedItem.ToString();
+            DateTime fechaNacimiento=dateTimePicker1.Value;
+			
+        
+            // Algoritmo simplificado para generar RFC
+             Random random = new Random();
+             string h =random.Next(100000, 999999).ToString("D6");
+ 
+            string rfc = apellido1.Substring(0, 2) + apellido2.Substring(0, 1) + nombre.Substring(0, 1) +
+            	fechaNacimiento.ToString("yyMMdd")+h.Substring(0,3);
+             lblrfc.Text = "RFC: " + rfc;
+ 
+        }
 	}
 }
